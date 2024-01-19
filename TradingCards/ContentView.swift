@@ -16,7 +16,7 @@ struct ContentView: View {
             VStack{
                 Rectangle()
                     .frame(width: 370, height: 6)
-                    .foregroundColor(.myblue)
+                    .foregroundColor(.daniel1)
                 
                 HStack{
                     Circle()
@@ -40,7 +40,21 @@ struct ContentView: View {
                 
                 Rectangle()
                     .frame(width: 370, height: 6)
-                    .foregroundColor(.myred)
+                    .foregroundColor(.daniel2)
+                
+         
+                    Image("danielcaesar")
+                        .resizable()
+                        .scaledToFit()
+                        .padding()
+
+                Text("Daniel")
+                    .font(.custom("Copperplate-Bold", size: 50, relativeTo: .body))
+                
+                Text("CAESAR")
+                    .font(.custom("Copperplate-Bold", size: 70, relativeTo: .body))
+                    
+                
             }
 
             
