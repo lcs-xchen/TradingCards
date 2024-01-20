@@ -29,6 +29,7 @@ struct ContentView: View {
                     Text("SINGER / SONGWRITER")
                         .bold()
                         .font(Font.system(size: 20))
+                        
                     
                     Circle()
                         .frame(width: 10)
@@ -46,19 +47,31 @@ struct ContentView: View {
                     Image("danielcaesar")
                         .resizable()
                         .scaledToFit()
-                        .padding()
+                        .padding(.trailing)
+                        .padding(.leading)
 
-                Text("Daniel")
-                    .font(.custom("Copperplate-Bold", size: 50, relativeTo: .body))
-                
-                Text("CAESAR")
-                    .font(.custom("Copperplate-Bold", size: 70, relativeTo: .body))
+                ZStack {
+                    Rectangle()
+                        .foregroundColor(.white)
+                        .padding(.trailing)
+                        .padding(.leading)
+                        .frame(width: 400, height: 150)
                     
+                    VStack {
+                        Text("Daniel")
+                            .font(.custom("Copperplate-Bold", size: 50, relativeTo: .body))
+                        
+                        Text("CAESAR")
+                            .font(.custom("Copperplate-Bold", size: 70, relativeTo: .body))
+                    }
+    
+                }
+                
+               
+                
+                
                 
             }
-
-            
-            
         }
     }
 }
@@ -66,3 +79,4 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
+ 
