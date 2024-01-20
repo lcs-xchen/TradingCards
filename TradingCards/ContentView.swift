@@ -80,13 +80,57 @@ struct ContentView: View {
                                 .bold()
                             .font(Font.system(size: 20))
                             .padding(.leading, 30)
+                            .padding(.top)
+                        
                             Spacer()
                         }
                         
                         HStack{
-                            Text("Genre")
+                            VStack{
+                                Text("Genre:")
+                                    .bold()
+                                    .padding(.trailing)
+
+                                
+                                Text ("R&B")
+                                    .padding(.trailing)
+                            }
+                            
+                            VStack{
+                                Text("Instruments:")
+                                    .bold()
+                                    .padding(.leading)
+                                    .padding(.trailing)
+
+                                
+                                Text ("Guitar")
+                                
+                            }
+                            
+                            VStack{
+                                Text("Awards:")
+                                    .bold()
+                                    .padding(.leading)
+                                    .padding(.trailing)
+
+                                
+                                Text ("7")
+                                
+                            }
+                            
+                            
                         }
+                        Spacer()
                         
+                        Text("Life and Career")
+                            .padding(.trailing, 200)
+                            .bold()
+                            .font(Font.system(size: 20))
+                        
+                        Text("Daniel connected with producers and future collaborators Jordan Evans and Matthew Burnett and began writing and recording what would be his debut EP Praise Break in 2014; it was No. 19 on the Best R&B Albums by Rolling Stone and the top projects of 2014 by Noisey Canada.")
+                            .padding(.leading, 30)
+                            .padding(.trailing, 30)
+                            .padding(.bottom)
                     }
                     
                     
