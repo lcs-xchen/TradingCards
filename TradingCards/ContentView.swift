@@ -67,7 +67,30 @@ struct ContentView: View {
     
                 }
                 
-               
+                ZStack{
+                    Rectangle()
+                        .foregroundColor(.white)
+                        .padding(.trailing)
+                        .padding(.leading)
+                        .frame(width: 400)
+                    
+                    VStack{
+                        HStack {
+                            Text("General Information")
+                                .bold()
+                            .font(Font.system(size: 20))
+                            .padding(.leading, 30)
+                            Spacer()
+                        }
+                        
+                        HStack{
+                            Text("Genre")
+                        }
+                        
+                    }
+                    
+                    
+                }
                 
                 
                 
