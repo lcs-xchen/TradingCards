@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		DF706D832B5AB39E004F0CA9 /* TradingCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF706D822B5AB39E004F0CA9 /* TradingCardsApp.swift */; };
-		DF706D852B5AB39E004F0CA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF706D842B5AB39E004F0CA9 /* ContentView.swift */; };
+		DF706D852B5AB39E004F0CA9 /* DanielCaesar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF706D842B5AB39E004F0CA9 /* DanielCaesar.swift */; };
 		DF706D872B5AB3A2004F0CA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF706D862B5AB3A2004F0CA9 /* Assets.xcassets */; };
 		DF706D8A2B5AB3A2004F0CA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF706D892B5AB3A2004F0CA9 /* Preview Assets.xcassets */; };
+		DF706D962B5ED237004F0CA9 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF706D952B5ED237004F0CA9 /* LandingView.swift */; };
+		DF706D992B5ED32B004F0CA9 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF706D982B5ED32B004F0CA9 /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DF706D7F2B5AB39E004F0CA9 /* TradingCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradingCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF706D822B5AB39E004F0CA9 /* TradingCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardsApp.swift; sourceTree = "<group>"; };
-		DF706D842B5AB39E004F0CA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DF706D842B5AB39E004F0CA9 /* DanielCaesar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanielCaesar.swift; sourceTree = "<group>"; };
 		DF706D862B5AB3A2004F0CA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF706D892B5AB3A2004F0CA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF706D952B5ED237004F0CA9 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		DF706D982B5ED32B004F0CA9 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,10 @@
 		DF706D812B5AB39E004F0CA9 /* TradingCards */ = {
 			isa = PBXGroup;
 			children = (
+				DF706D972B5ED320004F0CA9 /* Helpers */,
+				DF706D942B5ED226004F0CA9 /* Views */,
 				DF706D822B5AB39E004F0CA9 /* TradingCardsApp.swift */,
-				DF706D842B5AB39E004F0CA9 /* ContentView.swift */,
+				DF706D842B5AB39E004F0CA9 /* DanielCaesar.swift */,
 				DF706D862B5AB3A2004F0CA9 /* Assets.xcassets */,
 				DF706D882B5AB3A2004F0CA9 /* Preview Content */,
 			);
@@ -65,6 +71,22 @@
 				DF706D892B5AB3A2004F0CA9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DF706D942B5ED226004F0CA9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DF706D952B5ED237004F0CA9 /* LandingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DF706D972B5ED320004F0CA9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DF706D982B5ED32B004F0CA9 /* ListView.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF706D852B5AB39E004F0CA9 /* ContentView.swift in Sources */,
+				DF706D992B5ED32B004F0CA9 /* ListView.swift in Sources */,
+				DF706D962B5ED237004F0CA9 /* LandingView.swift in Sources */,
+				DF706D852B5AB39E004F0CA9 /* DanielCaesar.swift in Sources */,
 				DF706D832B5AB39E004F0CA9 /* TradingCardsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

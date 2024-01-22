@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct DanielCaesar: View {
     var body: some View {
         ZStack {
             Color(.cream)
@@ -47,14 +47,22 @@ struct ContentView: View {
                     Image("danielcaesar")
                         .resizable()
                         .scaledToFit()
-                        .padding(.trailing)
-                        .padding(.leading)
+                        .padding(.horizontal)
+                        .overlay(
+                            HStack {
+                                Image("republicrecords")
+                                    .resizable()
+                                    .scaledToFit()
+                                    .mask(Circle()
+                                    .frame(width: 140))
+                            }
+                        )
+                
 
                 ZStack {
                     Rectangle()
                         .foregroundColor(.white)
-                        .padding(.trailing)
-                        .padding(.leading)
+                        .padding(.horizontal)
                         .frame(width: 400, height: 150)
                     
                     VStack {
@@ -70,11 +78,11 @@ struct ContentView: View {
                 ZStack{
                     Rectangle()
                         .foregroundColor(.white)
-                        .padding(.trailing)
-                        .padding(.leading)
+                        .padding(.horizontal)
                         .frame(width: 400)
                     
                     VStack{
+                        
                         HStack {
                             Text("General Information")
                                 .bold()
@@ -90,6 +98,7 @@ struct ContentView: View {
                                 Text("Genre:")
                                     .bold()
                                     .padding(.trailing)
+                    
 
                                 
                                 Text ("R&B")
@@ -99,8 +108,7 @@ struct ContentView: View {
                             VStack{
                                 Text("Instruments:")
                                     .bold()
-                                    .padding(.leading)
-                                    .padding(.trailing)
+                                    .padding(.horizontal)
 
                                 
                                 Text ("Guitar")
@@ -110,8 +118,7 @@ struct ContentView: View {
                             VStack{
                                 Text("Awards:")
                                     .bold()
-                                    .padding(.leading)
-                                    .padding(.trailing)
+                                    .padding(.horizontal)
 
                                 
                                 Text ("7")
@@ -128,12 +135,11 @@ struct ContentView: View {
                             .font(Font.system(size: 20))
                         
                         Text("Daniel connected with producers and future collaborators Jordan Evans and Matthew Burnett and began writing and recording what would be his debut EP Praise Break in 2014; it was No. 19 on the Best R&B Albums by Rolling Stone and the top projects of 2014 by Noisey Canada.")
-                            .padding(.leading, 30)
-                            .padding(.trailing, 30)
+                            .padding(.horizontal, 30)
                             .padding(.bottom)
                     }
                     
-                    
+               
                 }
                 
                 
@@ -144,6 +150,6 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    DanielCaesar()
 }
  
