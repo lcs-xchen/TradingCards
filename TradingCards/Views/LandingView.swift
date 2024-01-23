@@ -19,7 +19,11 @@ struct LandingView: View {
                         ListView(nameOfArtist: "Daniel Caesar", title: "Favourite Artist 1", imageOfArtist: "danielcaesar")
                     }
                     
-                    
+                    NavigationLink{
+                        FrankOcean()
+                    } label: {
+                        ListView(nameOfArtist: "Frank Ocean", title: "Favourite Artist 2", imageOfArtist: "frankocean")
+                    }
             
                     
                 }
@@ -28,6 +32,7 @@ struct LandingView: View {
         }
     }
 }
+
 
 #Preview {
     LandingView()

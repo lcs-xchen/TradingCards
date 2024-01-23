@@ -1,13 +1,13 @@
 //
-//  ContentView.swift
+//  FrankOcean.swift
 //  TradingCards
 //
-//  Created by Cindy Chen on 2024-01-19.
+//  Created by Cindy Chen on 2024-01-22.
 //
 
 import SwiftUI
 
-struct DanielCaesar: View {
+struct FrankOcean: View {
     var body: some View {
         ZStack {
             Color(.cream)
@@ -16,7 +16,7 @@ struct DanielCaesar: View {
             VStack{
                 Rectangle()
                     .frame(width: 370, height: 6)
-                    .foregroundColor(.daniel1)
+                    .foregroundColor(.frank2)
                 
                 HStack{
                     Circle()
@@ -41,23 +41,13 @@ struct DanielCaesar: View {
                 
                 Rectangle()
                     .frame(width: 370, height: 6)
-                    .foregroundColor(.daniel2)
+                    .foregroundColor(.frank2)
                 
          
-                    Image("danielcaesar")
+                    Image("frankocean")
                         .resizable()
-                        .scaledToFit()
                         .padding(.horizontal)
-                        .overlay(
-                            HStack {
-                                
-                                Image("republicrecords")
-                                    .resizable()
-                                    .scaledToFit()
-                                    .mask(Circle()
-                                    .frame(width: 140))
-                            }
-                        )
+                
                 
 
                 ZStack {
@@ -67,10 +57,10 @@ struct DanielCaesar: View {
                         .frame(width: 400, height: 150)
                     
                     VStack {
-                        Text("Daniel")
+                        Text("Frank")
                             .font(.custom("Copperplate-Bold", size: 50, relativeTo: .body))
                         
-                        Text("CAESAR")
+                        Text("OCEAN")
                             .font(.custom("Copperplate-Bold", size: 70, relativeTo: .body))
                     }
     
@@ -112,7 +102,7 @@ struct DanielCaesar: View {
                                     .padding(.horizontal)
 
                                 
-                                Text ("Guitar")
+                                Text ("Piano")
                                 
                             }
                             
@@ -122,7 +112,7 @@ struct DanielCaesar: View {
                                     .padding(.horizontal)
 
                                 
-                                Text ("7")
+                                Text ("14")
                                 
                             }
                             
@@ -135,7 +125,7 @@ struct DanielCaesar: View {
                             .bold()
                             .font(Font.system(size: 20))
                         
-                        Text("Daniel connected with producers and future collaborators Jordan Evans and Matthew Burnett and began writing and recording what would be his debut EP Praise Break in 2014; it was No. 19 on the Best R&B Albums by Rolling Stone and the top projects of 2014 by Noisey Canada.")
+                        Text("Frank Ocean has emerged as one of the most enigmatic and influential figures in contemporary music. Starting his career as a member of the hip-hop collective Odd Future, Ocean gained widespread recognition with his mixtape Nostalgia, Ultra in 2011. His debut studio album, Channel Orange (2012), showcased his unique blend of R&B, soul, and introspective storytelling, earning critical acclaim and a Grammy Award for Best Urban Contemporary Album.")
                             .padding(.horizontal, 30)
                             .padding(.bottom)
                     }
@@ -151,6 +141,6 @@ struct DanielCaesar: View {
 }
 
 #Preview {
-    DanielCaesar()
+    FrankOcean()
 }
  

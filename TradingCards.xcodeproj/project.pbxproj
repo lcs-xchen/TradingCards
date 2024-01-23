@@ -13,6 +13,7 @@
 		DF706D8A2B5AB3A2004F0CA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF706D892B5AB3A2004F0CA9 /* Preview Assets.xcassets */; };
 		DF706D962B5ED237004F0CA9 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF706D952B5ED237004F0CA9 /* LandingView.swift */; };
 		DF706D992B5ED32B004F0CA9 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF706D982B5ED32B004F0CA9 /* ListView.swift */; };
+		DF706D9B2B5EDC98004F0CA9 /* FrankOcean.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF706D9A2B5EDC98004F0CA9 /* FrankOcean.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		DF706D892B5AB3A2004F0CA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DF706D952B5ED237004F0CA9 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 		DF706D982B5ED32B004F0CA9 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		DF706D9A2B5EDC98004F0CA9 /* FrankOcean.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrankOcean.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				DF706D942B5ED226004F0CA9 /* Views */,
 				DF706D822B5AB39E004F0CA9 /* TradingCardsApp.swift */,
 				DF706D842B5AB39E004F0CA9 /* DanielCaesar.swift */,
+				DF706D9A2B5EDC98004F0CA9 /* FrankOcean.swift */,
 				DF706D862B5AB3A2004F0CA9 /* Assets.xcassets */,
 				DF706D882B5AB3A2004F0CA9 /* Preview Content */,
 			);
@@ -163,6 +166,7 @@
 				DF706D962B5ED237004F0CA9 /* LandingView.swift in Sources */,
 				DF706D852B5AB39E004F0CA9 /* DanielCaesar.swift in Sources */,
 				DF706D832B5AB39E004F0CA9 /* TradingCardsApp.swift in Sources */,
+				DF706D9B2B5EDC98004F0CA9 /* FrankOcean.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
