@@ -55,11 +55,21 @@ struct FrankOcean: View {
                         .padding(.horizontal)
                         .overlay(
                         
-                        Image("defjam")
-                            .resizable()
-                            .scaledToFit()
-                            .mask(Circle()
-                            .frame(width: 1000)))
+                            VStack {
+                                Spacer()
+                                
+                                HStack {
+                                    Spacer()
+                                    
+                                    Image("defjam")
+                                        .resizable()
+                                        .scaledToFit()
+                                        .frame(width: 100)
+                                        .padding(.horizontal)
+                                }
+                            }
+                        
+                        )
                 
                 
 
