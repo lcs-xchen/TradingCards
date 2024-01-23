@@ -16,13 +16,13 @@ struct LandingView: View {
                     NavigationLink{
                         DanielCaesar()
                     } label: {
-                        ListView(nameOfArtist: "Daniel Caesar", title: "Favourite Artist 1", imageOfArtist: "danielcaesar")
+                        ListView(nameOfArtist: "Daniel Caesar", title: "'NEVER ENOUGH', 'Freudian'", imageOfArtist: "danielcaesar")
                     }
                     
                     NavigationLink{
                         FrankOcean()
                     } label: {
-                        ListView(nameOfArtist: "Frank Ocean", title: "Favourite Artist 2", imageOfArtist: "frankocean")
+                        ListView(nameOfArtist: "Frank Ocean", title: "'Blonde', 'Channel Orange'", imageOfArtist: "frankocean")
                     }
             
                     

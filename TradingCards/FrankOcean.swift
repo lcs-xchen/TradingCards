@@ -10,9 +10,8 @@ import SwiftUI
 struct FrankOcean: View {
     var body: some View {
         ZStack {
-            Color(.cream)
+            Color(.frank1)
                 .ignoresSafeArea()
-            
             VStack{
                 Rectangle()
                     .frame(width: 370, height: 6)
@@ -21,22 +20,29 @@ struct FrankOcean: View {
                 HStack{
                     Circle()
                         .frame(width: 10)
+                        .foregroundColor(.frank0)
                     Circle()
                         .frame(width: 10)
+                        .foregroundColor(.frank0)
                     Circle()
                         .frame(width: 10)
+                        .foregroundColor(.frank0)
                     
                     Text("SINGER / SONGWRITER")
                         .bold()
                         .font(Font.system(size: 20))
+                        .foregroundColor(.frank0)
                         
                     
                     Circle()
                         .frame(width: 10)
+                        .foregroundColor(.frank0)
                     Circle()
                         .frame(width: 10)
+                        .foregroundColor(.frank0)
                     Circle()
                         .frame(width: 10)
+                        .foregroundColor(.frank0)
                 }
                 
                 Rectangle()
@@ -47,12 +53,19 @@ struct FrankOcean: View {
                     Image("frankocean")
                         .resizable()
                         .padding(.horizontal)
+                        .overlay(
+                        
+                        Image("defjam")
+                            .resizable()
+                            .scaledToFit()
+                            .mask(Circle()
+                            .frame(width: 1000)))
                 
                 
 
                 ZStack {
                     Rectangle()
-                        .foregroundColor(.white)
+                        .foregroundColor(.frank0)
                         .padding(.horizontal)
                         .frame(width: 400, height: 150)
                     
@@ -68,7 +81,7 @@ struct FrankOcean: View {
                 
                 ZStack{
                     Rectangle()
-                        .foregroundColor(.white)
+                        .foregroundColor(.frank0)
                         .padding(.horizontal)
                         .frame(width: 400)
                     
@@ -125,7 +138,7 @@ struct FrankOcean: View {
                             .bold()
                             .font(Font.system(size: 20))
                         
-                        Text("Frank Ocean has emerged as one of the most enigmatic and influential figures in contemporary music. Starting his career as a member of the hip-hop collective Odd Future, Ocean gained widespread recognition with his mixtape Nostalgia, Ultra in 2011. His debut studio album, Channel Orange (2012), showcased his unique blend of R&B, soul, and introspective storytelling, earning critical acclaim and a Grammy Award for Best Urban Contemporary Album.")
+                        Text("Frank Ocean has emerged as one of the most enigmatic and influential figures in contemporary music. Starting his career as a member of the hip-hop collective Odd Future, Ocean gained widespread recognition with his mixtape Nostalgia, Ultra in 2011. His debut studio album, Channel Orange (2012), showcased his unique blend of R&B, soul, and introspective storytelling, earning critical acclaim and a Grammy Award for Best Urban Contemporary Album. Ocean is known for his evocative lyrics and distinctive vocal style, challenging traditional genre boundaries. Beyond his musical prowess, he is recognized for his privacy and reluctance to conform to industry norms, contributing to his mystique. Frank Ocean's artistic authenticity and innovation have solidified his status as a trailblazer in the music industry, leaving an indelible mark on the landscape of contemporary R&B and pop.")
                             .padding(.horizontal, 30)
                             .padding(.bottom)
                     }
