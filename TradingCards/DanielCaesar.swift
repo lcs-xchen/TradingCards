@@ -164,6 +164,8 @@ struct DanielCaesar: View {
                 
             }
         }
+        .navigationTitle("")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
