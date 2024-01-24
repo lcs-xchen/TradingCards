@@ -111,6 +111,7 @@ struct DanielCaesar: View {
                                     Text("Genre:")
                                         .foregroundColor(.black)
                                         .bold()
+                                    
                                 
                                     
                                     
@@ -124,6 +125,7 @@ struct DanielCaesar: View {
                                     Text("Instruments:")
                                         .foregroundColor(.black)
                                         .bold()
+                                        .padding(.leading)
                                         .padding(.horizontal)
                                     
                                     
@@ -154,7 +156,7 @@ struct DanielCaesar: View {
                                 .bold()
                                 .font(Font.system(size: 20))
                             
-                            Text("Daniel connected with producers and future collaborators Jordan Evans and Matthew Burnett and began writing and recording what would be his debut EP Praise Break in 2014; it was No. 19 on the Best R&B Albums by Rolling Stone and the top projects of 2014 by Noisey Canada.")
+                            Text("Daniel Caesar, born Ashton Simmonds in 1995, has emerged as a compelling figure in modern R&B. With the 2014 debut EP 'Praise Break' and the critically acclaimed album 'Freudian' (2017), Caesar blends soulful vocals with emotive songwriting, earning Grammy nominations. His authentic exploration of love, spirituality, and personal growth establishes him as a standout artist in contemporary R&B.")
                                 .foregroundColor(.black)
                                 
                         }

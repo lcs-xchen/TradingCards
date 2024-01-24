@@ -91,67 +91,83 @@ struct FrankOcean: View {
                 }
                 
                 
-                VStack(alignment: .leading){
+                ZStack{
+                 
                     
-                    HStack {
-                        Text("General Information")
+                    VStack (alignment: .leading){
+                        
+                        HStack {
+                            Text("General Information")
+                                .foregroundColor(.black)
+                                .bold()
+                                .font(Font.system(size: 20))
+                               
+                            
+                   
+                        }
+                        
+                        HStack{
+                            VStack{
+                                Text("Genre:")
+                                    .foregroundColor(.black)
+                                    .bold()
+                                
+                            
+                                
+                                
+                                
+                                Text ("R&B")
+                                    .foregroundColor(.black)
+                             
+                            }
+                            
+                            VStack{
+                                Text("Instruments:")
+                                    .foregroundColor(.black)
+                                    .bold()
+                                    .padding(.leading)
+                                    .padding(.horizontal)
+                                
+                                
+                                Text ("Piano")
+                                    .foregroundColor(.black)
+                                
+                            }
+                            
+                            VStack{
+                                Text("Awards:")
+                                    .foregroundColor(.black)
+                                    .bold()
+                                    .padding(.horizontal)
+                                
+                                
+                                
+                                Text ("14")
+                                    .foregroundColor(.black)
+                                
+                            }
+                            
+                            
+                        }
+                        Spacer()
+                        
+                        Text("Life and Career")
+                            .foregroundColor(.black)
                             .bold()
                             .font(Font.system(size: 20))
-                    
-                        Spacer()
+                        
+                        Text("Frank Ocean, born Christopher Edwin Breaux in 1987, has become a singular force in modern music. Initially part of Odd Future, he gained prominence with the 2011 mixtape 'Nostalgia, Ultra' and the Grammy-winning debut album 'Channel Orange' (2012). Blending R&B, soul, and poignant storytelling, Ocean defies genre norms, epitomizing artistic authenticity. His mystique stems from a commitment to privacy, challenging industry conventions. Ocean's impact on contemporary R&B and pop is undeniable, solidifying his legacy as a trailblazer.")
+                            .foregroundColor(.black)
+                            
                     }
+                    .padding(20)
+                    .background(
+                        Color.frank0
+                    )
+                    .padding(.horizontal, 20)
                     
-                    HStack{
-                        VStack{
-                            Text("Genre:")
-                                .bold()
-                                .padding(.trailing)
-                
-
-                            
-                            Text ("R&B")
-                                 .padding(.trailing)
-                        }
-                        
-                        VStack{
-                            Text("Instruments:")
-                                .bold()
-                               
-
-                            
-                            Text ("Piano")
-                            
-                        }
-                        
-                        VStack{
-                            Text("Awards:")
-                                .bold()
-                               .padding(.leading)
-
-                            
-                            Text ("14")
-                                .padding(.leading)
-                            
-                        }
-                        
-                        
-                    }
                     
-                    Spacer()
-                    
-                    Text("Life and Career")
-                        .bold()
-                        .font(Font.system(size: 20))
-                    
-                    Text("Frank Ocean has emerged as one of the most enigmatic and influential figures in contemporary music. Starting his career as a member of the hip-hop collective Odd Future, Ocean gained widespread recognition with his mixtape Nostalgia, Ultra in 2011. His debut studio album, Channel Orange (2012), showcased his unique blend of R&B, soul, and introspective storytelling, earning critical acclaim and a Grammy Award for Best Urban Contemporary Album. Ocean is known for his evocative lyrics and distinctive vocal style, challenging traditional genre boundaries. Beyond his musical prowess, he is recognized for his privacy and reluctance to conform to industry norms, contributing to his mystique. Frank Ocean's artistic authenticity and innovation have solidified his status as a trailblazer in the music industry, leaving an indelible mark on the landscape of contemporary R&B and pop.")
-                        .padding(.bottom)
                 }
-                .padding(20)
-                .background(
-                    Color.frank0
-                )
-                .padding(20)
-           
                 
                 
                 
