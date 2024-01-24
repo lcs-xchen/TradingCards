@@ -110,13 +110,13 @@ struct FrankOcean: View {
 
                             
                             Text ("R&B")
-                                .padding(.trailing)
+                                 .padding(.trailing)
                         }
                         
                         VStack{
                             Text("Instruments:")
                                 .bold()
-                                .padding(.horizontal)
+                               
 
                             
                             Text ("Piano")
@@ -126,36 +126,39 @@ struct FrankOcean: View {
                         VStack{
                             Text("Awards:")
                                 .bold()
-                                .padding(.horizontal)
+                               .padding(.leading)
 
                             
                             Text ("14")
+                                .padding(.leading)
                             
                         }
                         
                         
                     }
+                    
                     Spacer()
                     
                     Text("Life and Career")
-                        .padding(.trailing, 200)
                         .bold()
                         .font(Font.system(size: 20))
                     
                     Text("Frank Ocean has emerged as one of the most enigmatic and influential figures in contemporary music. Starting his career as a member of the hip-hop collective Odd Future, Ocean gained widespread recognition with his mixtape Nostalgia, Ultra in 2011. His debut studio album, Channel Orange (2012), showcased his unique blend of R&B, soul, and introspective storytelling, earning critical acclaim and a Grammy Award for Best Urban Contemporary Album. Ocean is known for his evocative lyrics and distinctive vocal style, challenging traditional genre boundaries. Beyond his musical prowess, he is recognized for his privacy and reluctance to conform to industry norms, contributing to his mystique. Frank Ocean's artistic authenticity and innovation have solidified his status as a trailblazer in the music industry, leaving an indelible mark on the landscape of contemporary R&B and pop.")
                         .padding(.bottom)
                 }
-                .padding(30)
+                .padding(20)
                 .background(
-                    Color.green
+                    Color.frank0
                 )
-                .padding(30)
-                .border(.red)
+                .padding(20)
+           
                 
                 
                 
             }
         }
+        .navigationTitle("")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
