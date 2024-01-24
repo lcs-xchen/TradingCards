@@ -25,6 +25,11 @@ struct LandingView: View {
                         ListView(nameOfArtist: "Frank Ocean", title: "'Blonde', 'Channel Orange'", imageOfArtist: "frankocean")
                     }
             
+                    NavigationLink{
+                        SZA()
+                    } label: {
+                        ListView(nameOfArtist: "SZA", title: "'SOS', 'Ctrl', 'The Weekend'", imageOfArtist: "sza")
+                    }
                     
                 }
             }
